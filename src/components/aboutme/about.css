@@ -1,0 +1,65 @@
+.title{
+    font-size:6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight:500;
+     display:flex;
+     position: relative;
+     top:-6rem;
+     justify-content: center;  
+     padding-bottom: 0.5rem;   
+     color:whitesmoke;
+     font-style: bold;
+}
+.info{
+    overflow:hidden;
+    width: 100vw;
+    max-width:65rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.collegeimg{
+  object-fit: cover;
+
+}
+.schoolimg{
+    object-fit: cover;
+      
+  }
+a.collegedata{
+    font-size: 20px;
+    color: beige;
+}
+a.collegedata:hover{
+color:blue;
+}
+h5{
+    color:green;
+}
+p{
+    font-style: italic;
+    color: rgb(234, 227, 222);
+}
+
+@media screen and(max-width:720px) {
+    .college{
+        font-size: 3rem;
+        font-weight:600;
+        padding-top:3rem;
+        margin-bottom:1.5rem;
+    }
+
+    
+}@media screen and(max-width:480px) {
+    .collegedata>p{
+        font-size: 3vw;
+        }
+        .collegeimg{
+            height: 2.25rem;
+            width: 2.25rem;
+        }
+}
