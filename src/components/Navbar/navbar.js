@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="desktopmenu">
             <Link activeClass ='active' to ='intro' spy={true} smooth={true} offset={-100}
             duration={500} className="listitem">Home</Link>
-            <Link  activeClass ='active' to ='about' spy={true} smooth={true} offset={-100}
+            <Link  activeClass ='active' to ='aboutme' spy={true} smooth={true} offset={-100}
             duration={500} className="listitem">AboutMe</Link>
             <Link activeClass ='active' to ='interest'spy={true} smooth={true} offset={-100}
             duration={500} className="listitem">Interest</Link>
@@ -21,5 +21,4 @@ const Navbar = () => {
      </nav>
   )
 }
-
 export default Navbar
