@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "//Divyaagrawal0702.github.io/learn/static/css/main.1fd1bc20.css",
-    "main.js": "//Divyaagrawal0702.github.io/learn/static/js/main.6fb721ae.js",
+    "main.js": "//Divyaagrawal0702.github.io/learn/static/js/main.271864d7.js",
     "static/media/divya.jpg": "//Divyaagrawal0702.github.io/learn/static/media/divya.b6a164e6db896075c780.jpg",
     "static/media/java.png": "//Divyaagrawal0702.github.io/learn/static/media/java.93e1dc09644f2045ab62.png",
     "static/media/school2.jpg": "//Divyaagrawal0702.github.io/learn/static/media/school2.a8c46f2faea8cca4f93e.jpg",
@@ -9,10 +9,10 @@
     "static/media/college.jpg": "//Divyaagrawal0702.github.io/learn/static/media/college.07a3dc0381d0c563e0a4.jpg",
     "index.html": "//Divyaagrawal0702.github.io/learn/index.html",
     "main.1fd1bc20.css.map": "//Divyaagrawal0702.github.io/learn/static/css/main.1fd1bc20.css.map",
-    "main.6fb721ae.js.map": "//Divyaagrawal0702.github.io/learn/static/js/main.6fb721ae.js.map"
+    "main.271864d7.js.map": "//Divyaagrawal0702.github.io/learn/static/js/main.271864d7.js.map"
   },
   "entrypoints": [
     "static/css/main.1fd1bc20.css",
-    "static/js/main.6fb721ae.js"
+    "static/js/main.271864d7.js"
   ]
 }
