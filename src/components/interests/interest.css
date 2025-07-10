@@ -1,35 +1,105 @@
-#interest{
-    width:100vw;
-    margin: 0 auto;
-    max-width: 60rem;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    text-align: center;
-    padding: 0 1rem;
-}
-.interestheading{
-    margin: 2rem auto;
-font-size:3rem;
+#interest {
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.imgs{
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    width:100vw;
-    max-width:65rem;
-    flex-wrap:wrap;
+.interestheading {
+  margin: 2rem 0;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #f8f9fa;
 }
-.interestimg{
-    object-fit:cover;
-    height:20rem;
-    margin:0.5rem;
 
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out; */
 }
-@media screen and (max-width:585px) {
-    .interestimg{
-height:40vw;
-    }
+#java{
+    filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+#java:hover{
+    filter: none;
+}
+#html{
+    filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+#html:hover{
+    filter: none;
+}
+#css{
+    filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+#css:hover{
+    filter: none;
+}
+#script{
+    filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+#script:hover{
+    filter: none;
+}
+#react{
+    filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+#react:hover{
+    filter: none;
+}
+#leetcode{
+    filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+#leetcode:hover{
+    filter: none;
+}
+
+.interestimg {
+  object-fit: cover;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.interestimg:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .interestimg {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .interestheading {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .interestimg {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .interestheading {
+    font-size: 1.8rem;
+  }
 }

@@ -12,12 +12,12 @@ const Interest = () => {
    <section id="interest">
     <h2 className="interestheading">My Interests</h2>
     <div className="imgs">
-    <img src={java} alt="" className="interestimg"/>
-    <img src={html} alt="" className="interestimg"/>
-    <img src={css} alt="" className="interestimg"/>
-    <img src={script} alt="" className="interestimg"/>
-    <img src={react} alt="" className="interestimg"/>
-    <img src={leetcode} alt="" className="interestimg"/>
+    <img src={java} alt="" className="interestimg" id="java"/>
+    <img src={html} alt="" className="interestimg" id="html"/>
+    <img src={css} alt="" className="interestimg" id="css"/>
+    <img src={script} alt="" className="interestimg" id="script"/>
+    <img src={react} alt="" className="interestimg" id="react"/>
+    <img src={leetcode} alt="" className="interestimg" id="leetcode"/>
 
     </div>
    

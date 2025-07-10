@@ -1,32 +1,61 @@
-h1{
-    text-align:center;
-    justify-content:center;
-    margin:2rem auto;
-    font-size:2rem;
-}
-/* a.imgs{
-    object-fit:cover;
-    height:20rem;
-    width: 15rem;
-    margin:0.5rem;
-
-} */
-#connect{
-    width:100vw;
-    margin: 0 auto;
-    max-width:60rem;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    text-align: center;
-    padding: 0 1rem;
-}
-.images{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    /* width:100vw; */
-    max-width:5rem;
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  color: whitesmoke;
+  font-weight: 600;
 }
 
+/* Main wrapper for the section */
+#connect {
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Container for icons or linked images */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Each link wrapper */
+.link {
+  height: 4rem;
+  width: 4rem;
+  transition: transform 0.3s ease;
+}
+
+/* Optional hover effect */
+.link:hover {
+  transform: scale(1.1);
+}
+
+/* Optional styling for image inside link */
+.link img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+/* Responsive: smaller icons on mobile */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .link {
+    height: 3rem;
+    width: 3rem;
+  }
+}
